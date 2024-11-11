@@ -1,0 +1,163 @@
+﻿  main.cpp
+  The contents of <string_view> are available only with C++17 or later.
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(34,32): error C2039: "string_view": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\numeric(23): message : см. объявление "std"
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(109): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "cpr::StringHolder<T>"
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(34,1): error C2061: синтаксическая ошибка: идентификатор "string_view"
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(34,1): error C2535: cpr::StringHolder<T>::StringHolder(void): функция-член уже определена или объявлена
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(32): message : см. объявление "cpr::StringHolder<T>::StringHolder"
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(34,1): error C2535: cpr::StringHolder<cpr::Url>::StringHolder(void): функция-член уже определена или объявлена
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(32): message : см. объявление "cpr::StringHolder<cpr::Url>::StringHolder"
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(123,14): error C2039: "string_view": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\numeric(23): message : см. объявление "std"
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(123,8): error C2061: синтаксическая ошибка: идентификатор "string_view"
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(123,8): error C2535: cpr::Url::Url(void): функция-член уже определена или объявлена
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(119): message : см. объявление "cpr::Url::Url"
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(123,51): error C2065: url: необъявленный идентификатор
+  The contents of <filesystem> are available only with C++17 or later.
+E:\vcpkg\installed\x64-windows\include\cpr\filesystem.h(15,21): error C2039: "filesystem": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\numeric(23): message : см. объявление "std"
+E:\vcpkg\installed\x64-windows\include\cpr\filesystem.h(15,31): error C2878: filesystem: пространство имен или класс с таким именем не существует
+  The contents of <optional> are available only with C++17 or later.
+E:\vcpkg\installed\x64-windows\include\cpr\callback.h(105,10): error C2039: "optional": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\numeric(23): message : см. объявление "std"
+E:\vcpkg\installed\x64-windows\include\cpr\callback.h(105,18): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+E:\vcpkg\installed\x64-windows\include\cpr\callback.h(105,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+E:\vcpkg\installed\x64-windows\include\cpr\callback.h(105,68): error C2238: непредвиденные лексемы перед ";"
+E:\vcpkg\installed\x64-windows\include\cpr\callback.h(97,140): error C2955: "std::reference_wrapper": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\type_traits(1863): message : см. объявление "std::reference_wrapper"
+E:\vcpkg\installed\x64-windows\include\cpr\callback.h(97,127): error C2614: cpr::CancellationCallback: недопустимая инициализация члена: "user_cb" не является базовым классом или членом
+E:\vcpkg\installed\x64-windows\include\cpr\util.h(13,21): error C2429: для функция языка "nested-namespace-definition" нужен флаг компилятора "/std:c++17"
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(94,14): error C2653: fs: не является именем класса или пространства имен
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(94,18): error C2061: синтаксическая ошибка: идентификатор "path"
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(98,11): error C2653: fs: не является именем класса или пространства имен
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(98,20): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(98,20): error C3646: filename: неизвестный спецификатор переопределения
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(94,58): error C2065: p_filename: необъявленный идентификатор
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(94,71): error C2789: "cpr::ssl::CertFile::path": требуется инициализация объекта типа класса, квалифицированного как const
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(98): message : см. объявление "cpr::ssl::CertFile::path"
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(94,39): error C2614: cpr::ssl::CertFile: недопустимая инициализация члена: "filename" не является базовым классом или членом
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(110,13): error C2653: fs: не является именем класса или пространства имен
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(110): error C2327: cpr::ssl::CertFile::path: не является именем типа, статическим членом или перечислителем
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(110,12): error C2327: cpr::ssl::CertFile::path: не является именем типа, статическим членом или перечислителем
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(110,17): error C2061: синтаксическая ошибка: идентификатор "path"
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(110,57): error C2065: p_filename: необъявленный идентификатор
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(123,13): error C2653: fs: не является именем класса или пространства имен
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(123,17): error C2061: синтаксическая ошибка: идентификатор "path"
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(132,5): error C2653: fs: не является именем класса или пространства имен
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(132,14): error C3646: filename: неизвестный спецификатор переопределения
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(132,22): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(126,59): error C3861: filename: идентификатор не найден
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(126,5): message : Сообщение диагностики возникло в созданной компилятором функции "cpr::ssl::KeyFile::KeyFile(FileType &&,PassType)"
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(123,57): error C2065: p_filename: необъявленный идентификатор
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(123,38): error C2614: cpr::ssl::KeyFile: недопустимая инициализация члена: "filename" не является базовым классом или членом
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(167,12): error C2653: fs: не является именем класса или пространства имен
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(167,16): error C2061: синтаксическая ошибка: идентификатор "path"
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(167,55): error C2065: p_filename: необъявленный идентификатор
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(316,12): error C2653: fs: не является именем класса или пространства имен
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(316,16): error C2061: синтаксическая ошибка: идентификатор "path"
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(318,5): error C2653: fs: не является именем класса или пространства имен
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(318,14): error C3646: filename: неизвестный спецификатор переопределения
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(318,22): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(316,56): error C2065: p_filename: необъявленный идентификатор
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(316,37): error C2614: cpr::ssl::CaInfo: недопустимая инициализация члена: "filename" не является базовым классом или членом
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(325,12): error C2653: fs: не является именем класса или пространства имен
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(325,16): error C2061: синтаксическая ошибка: идентификатор "path"
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(327,5): error C2653: fs: не является именем класса или пространства имен
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(327,14): error C3646: filename: неизвестный спецификатор переопределения
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(327,22): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(325,56): error C2065: p_filename: необъявленный идентификатор
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(325,37): error C2614: cpr::ssl::CaPath: недопустимая инициализация члена: "filename" не является базовым классом или членом
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(344,9): error C2653: fs: не является именем класса или пространства имен
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(344,13): error C2061: синтаксическая ошибка: идентификатор "path"
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(346,5): error C2653: fs: не является именем класса или пространства имен
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(346,14): error C3646: filename: неизвестный спецификатор переопределения
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(346,22): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(344,53): error C2065: p_filename: необъявленный идентификатор
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(344,34): error C2614: cpr::ssl::Crl: недопустимая инициализация члена: "filename" не является базовым классом или членом
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(468,25): error C2039: "filename": не является членом "cpr::ssl::CertFile".
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(91): message : см. объявление "cpr::ssl::CertFile"
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(472,24): error C2039: "filename": не является членом "cpr::ssl::KeyFile".
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(120): message : см. объявление "cpr::ssl::KeyFile"
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(570,23): error C2039: "filename": не является членом "cpr::ssl::CaInfo".
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(313): message : см. объявление "cpr::ssl::CaInfo"
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(573,23): error C2039: "filename": не является членом "cpr::ssl::CaPath".
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(322): message : см. объявление "cpr::ssl::CaPath"
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(581,24): error C2039: "filename": не является членом "cpr::ssl::Crl".
+E:\vcpkg\installed\x64-windows\include\cpr\ssl_options.h(341): message : см. объявление "cpr::ssl::Crl"
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(40,9): warning C4984: "if constexpr" — расширение языка C++17
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(128): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "cpr::AsyncWrapper<T,isCancellable>"
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(48,9): warning C4984: "if constexpr" — расширение языка C++17
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(60,9): warning C4984: "if constexpr" — расширение языка C++17
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(68,9): warning C4984: "if constexpr" — расширение языка C++17
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(81,9): warning C4984: "if constexpr" — расширение языка C++17
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(80,24): message : Сообщение диагностики возникло в созданной компилятором функции "std::future_status cpr::AsyncWrapper<T,isCancellable>::wait_for(const std::chrono::duration<_Rep2,_Period2> &) const"
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(94,9): warning C4984: "if constexpr" — расширение языка C++17
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(93,24): message : Сообщение диагностики возникло в созданной компилятором функции "std::future_status cpr::AsyncWrapper<T,isCancellable>::wait_until(const std::chrono::time_point<_Clock,_Duration> &) const"
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(111,9): warning C4984: "if constexpr" — расширение языка C++17
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(122,9): warning C4984: "if constexpr" — расширение языка C++17
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(132,28): error C2988: неопознанное объявление или определение шаблона
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(132,28): error C2143: синтаксическая ошибка: отсутствие ")" перед "&&"
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(132,28): error C2143: синтаксическая ошибка: отсутствие ";" перед "&&"
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(132,57): error C2888: std::future<_Ty>: символ не может быть определен в пространстве имен "cpr"
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(132,57): error C2059: синтаксическая ошибка: )
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(132,32): error C2988: неопознанное объявление или определение шаблона
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(132,32): error C2059: синтаксическая ошибка: ->
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(132,48): error C2065: T: необъявленный идентификатор
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(132,35): error C2923: cpr::AsyncWrapper: "T" не является допустимым аргументом типа шаблон для параметра "T"
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(132): message : см. объявление "T"
+E:\vcpkg\installed\x64-windows\include\cpr\async_wrapper.h(137,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+E:\vcpkg\installed\x64-windows\include\cpr\buffer.h(14,42): error C2653: fs: не является именем класса или пространства имен
+E:\vcpkg\installed\x64-windows\include\cpr\buffer.h(14,46): error C2061: синтаксическая ошибка: идентификатор "path"
+E:\vcpkg\installed\x64-windows\include\cpr\buffer.h(28,11): error C2653: fs: не является именем класса или пространства имен
+E:\vcpkg\installed\x64-windows\include\cpr\buffer.h(28,20): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+E:\vcpkg\installed\x64-windows\include\cpr\buffer.h(28,20): error C3646: filename: неизвестный спецификатор переопределения
+E:\vcpkg\installed\x64-windows\include\cpr\buffer.h(18,115): error C3861: filename: идентификатор не найден
+E:\vcpkg\installed\x64-windows\include\cpr\buffer.h(14,5): message : Сообщение диагностики возникло в созданной компилятором функции "cpr::Buffer::Buffer(Iterator,Iterator)"
+E:\vcpkg\installed\x64-windows\include\cpr\buffer.h(18,134): error C3861: p_filename: идентификатор не найден
+E:\vcpkg\installed\x64-windows\include\cpr\buffer.h(14,5): message : Сообщение диагностики возникло в созданной компилятором функции "cpr::Buffer::Buffer(Iterator,Iterator)"
+E:\vcpkg\installed\x64-windows\include\cpr\buffer.h(18,134): error C2065: p_filename: необъявленный идентификатор
+E:\vcpkg\installed\x64-windows\include\cpr\buffer.h(14,5): message : Сообщение диагностики возникло в созданной компилятором функции "cpr::Buffer::Buffer(Iterator,Iterator)"
+E:\vcpkg\installed\x64-windows\include\cpr\multipart.h(20,128): error C2039: "filename": не является членом "cpr::Buffer".
+E:\vcpkg\installed\x64-windows\include\cpr\buffer.h(10): message : см. объявление "cpr::Buffer"
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(34,1): error C2535: cpr::StringHolder<cpr::Body>::StringHolder(void): функция-член уже определена или объявлена
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(32): message : см. объявление "cpr::StringHolder<cpr::Body>::StringHolder"
+E:\vcpkg\installed\x64-windows\include\cpr\body.h(22,15): error C2039: "string_view": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\unordered_set(24): message : см. объявление "std"
+E:\vcpkg\installed\x64-windows\include\cpr\body.h(22,9): error C2061: синтаксическая ошибка: идентификатор "string_view"
+E:\vcpkg\installed\x64-windows\include\cpr\body.h(22,9): error C2535: cpr::Body::Body(void): функция-член уже определена или объявлена
+E:\vcpkg\installed\x64-windows\include\cpr\body.h(18): message : см. объявление "cpr::Body::Body"
+E:\vcpkg\installed\x64-windows\include\cpr\body.h(22,54): error C2065: body: необъявленный идентификатор
+E:\vcpkg\installed\x64-windows\include\cpr\body.h(41,1): error C2664: "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::read(_Elem *,std::streamsize)": невозможно преобразовать аргумент 1 из "const _Elem *" в "_Elem *"
+          with
+          [
+              _Elem=char
+          ]
+E:\vcpkg\installed\x64-windows\include\cpr\body.h(41,28): message : В результате преобразования теряются квалификаторы
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(511,39): message : см. объявление "std::basic_istream<char,std::char_traits<char>>::read"
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(34,1): error C2535: cpr::StringHolder<cpr::Interface>::StringHolder(void): функция-член уже определена или объявлена
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(32): message : см. объявление "cpr::StringHolder<cpr::Interface>::StringHolder"
+E:\vcpkg\installed\x64-windows\include\cpr\interface.h(17,20): error C2039: "string_view": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\unordered_set(24): message : см. объявление "std"
+E:\vcpkg\installed\x64-windows\include\cpr\interface.h(17,14): error C2061: синтаксическая ошибка: идентификатор "string_view"
+E:\vcpkg\installed\x64-windows\include\cpr\interface.h(17,14): error C2535: cpr::Interface::Interface(void): функция-член уже определена или объявлена
+E:\vcpkg\installed\x64-windows\include\cpr\interface.h(13): message : см. объявление "cpr::Interface::Interface"
+E:\vcpkg\installed\x64-windows\include\cpr\interface.h(17,65): error C2065: iface: необъявленный идентификатор
+E:\vcpkg\installed\x64-windows\include\cpr\range.h(11,22): error C2039: "optional": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\unordered_set(24): message : см. объявление "std"
+E:\vcpkg\installed\x64-windows\include\cpr\range.h(11,10): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+E:\vcpkg\installed\x64-windows\include\cpr\range.h(11,30): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+E:\vcpkg\installed\x64-windows\include\cpr\range.h(12,23): error C2065: p_resume_from: необъявленный идентификатор
+E:\vcpkg\installed\x64-windows\include\cpr\range.h(13,21): error C2065: p_finish_at: необъявленный идентификатор
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(34,1): error C2535: cpr::StringHolder<cpr::UserAgent>::StringHolder(void): функция-член уже определена или объявлена
+E:\vcpkg\installed\x64-windows\include\cpr\cprtypes.h(32): message : см. объявление "cpr::StringHolder<cpr::UserAgent>::StringHolder"
+E:\vcpkg\installed\x64-windows\include\cpr\user_agent.h(16,20): error C2039: "string_view": не является членом "std".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\set(23): message : см. объявление "std"
+E:\vcpkg\installed\x64-windows\include\cpr\user_agent.h(16,14): error C2061: синтаксическая ошибка: идентификатор "string_view"
+E:\vcpkg\installed\x64-windows\include\cpr\user_agent.h(16,14): error C2535: cpr::UserAgent::UserAgent(void): функция-член уже определена или объявлена
+E:\vcpkg\installed\x64-windows\include\cpr\user_agent.h(12): message : см. объявление "cpr::UserAgent::UserAgent"
+E:\vcpkg\installed\x64-windows\include\cpr\user_agent.h(16,69): error C2065: useragent: необъявленный идентификатор
+E:\vcpkg\installed\x64-windows\include\cpr\api.h(109,5): warning C4984: "if constexpr" — расширение языка C++17
+E:\vcpkg\installed\x64-windows\include\cpr\api.h(273,29): error C2653: fs: не является именем класса или пространства имен
+E:\vcpkg\installed\x64-windows\include\cpr\api.h(273,33): error C2065: path: необъявленный идентификатор
+E:\vcpkg\installed\x64-windows\include\cpr\api.h(273,1): fatal  error C1003: число ошибок превышает 100; остановка компиляции
